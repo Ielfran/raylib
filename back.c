@@ -51,6 +51,7 @@ int main(){
             case TITLE:
             {
                 DrawRectangle(0,0,screenwidth,screenheight,GREEN);
+                
                 DrawText("TITLE SCREEN",20,20,40,DARKGREEN);
                 DrawText("Press enter or tap jump to gameplay screen", 120, 220, 20, DARKGREEN);
             }break;
